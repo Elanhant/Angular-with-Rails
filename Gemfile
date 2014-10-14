@@ -20,6 +20,8 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 
 gem 'bower-rails'
+gem 'angular-rails-templates'
+
 group :production, :staging do
 	gem "rails_12factor"
 	gem "rails_stdout_logging"
