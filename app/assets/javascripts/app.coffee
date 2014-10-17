@@ -2,7 +2,9 @@ receta = angular.module('receta', [
 	'templates',
 	'ngRoute',
 	'ngResource',
-	'controllers'
+	'controllers',
+	'angular-flash.service',
+	'angular-flash.flash-alert-directive'
 ])
 
 receta.config([ '$routeProvider', 
